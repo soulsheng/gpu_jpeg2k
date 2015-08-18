@@ -1,0 +1,7 @@
+/gpu_jpeg2k/vc10/Debug
+/gpu_jpeg2k/vc10/ipch
+/gpu_jpeg2k/vc10/*.opensdf
+/gpu_jpeg2k/vc10/*.sdf
+/gpu_jpeg2k/vc10/JP2Decoder/Debug
+/gpu_jpeg2k/vc10/JP2Decoder/*.pdb
+/gpu_jpeg2k/vc10/*.suo

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\config\ini.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\config\parameters.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\decoder.cpp" />
+    <ClCompile Include="..\..\config\init_device.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file_format\boxes.cpp">
+      <Filter>file_format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\backup.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\backup_tag_tree.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\codestream.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\codestream_mct.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\dbg_tier2.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\tag_tree_decode.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\tag_tree_encode.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\write_codestream.c">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tier2\buffer.cpp">
+      <Filter>tier2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\buffered_stream.c">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\dbg_image.c">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\image.c">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\image_bil.c">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\image_bip.c">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\image_bsq.c">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\image_hyper.c">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\types\image_ordinary.c">
+      <Filter>types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{7fc796f6-7113-47a2-bba0-1c6fdd4f3643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file_format">
+      <UniqueIdentifier>{e4d8b73b-b6d1-4201-a927-a7d8d9c85827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tier2">
+      <UniqueIdentifier>{e67f7955-e8d3-4674-8ebd-25b593983dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="types">
+      <UniqueIdentifier>{452a128e-3f78-4159-8697-08d657e201ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\config\help.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\ini.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\init_device.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\parameters.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file_format\boxes.h">
+      <Filter>file_format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\buffer.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\codestream.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\codestream_mct.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\dbg_tier2.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\markers.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\tag_tree.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\tag_tree_encode.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tier2\write_codestream.h">
+      <Filter>tier2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\buffered_stream.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\dbg_image.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image_bil.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image_bip.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image_bsq.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image_hyper.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image_mct.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image_ordinary.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\types\image_types.h">
+      <Filter>types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\tier2\CMakeLists.txt">
+      <Filter>tier2</Filter>
+    </None>
+  </ItemGroup>
+</Project>
